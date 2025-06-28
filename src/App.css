@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Syne:wght@400;500;700&display=swap');
+
+body {
+  margin: 0;
+}
+
+.font-caudex {
+  font-family: 'Caudex', serif;
+}
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+.landing-bg {
+  /* min-height: 100vh;
+  width: 100vw; */
+  margin: 0;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .landing-bg header {
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem; */
+  }
+  /* .landing-bg main {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  } */
+}
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0.2em;
+  font-size: 16px;
+  font-family: 'Syne', sans-serif;
+  letter-spacing: 0.12em;
+  margin: 2em;
+} 
+
+h1 {
+  font-family: 'Caudex', serif;
+  letter-spacing: 0.15em;
+  font-size: 5em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+/* .logo {
+  height: 2em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  /* padding: 2em; */
+}
+
+.read-the-docs {
+  color: #888;
+}
